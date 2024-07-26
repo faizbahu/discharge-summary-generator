@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Montserrat", sans-serif !important;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,9 +26,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.css-1086bdv-MuiPaper-root-MuiAccordion-root::before{
+  display: none !important;
+  position: relative;
 }
+.css-1086bdv-MuiPaper-root-MuiAccordion-root{
+  box-shadow: none !important;
+}
+b, strong{
+  font-size: 20px !important;
+}
+
